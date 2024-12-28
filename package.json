@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:build": "docker build --build-arg DATABASE_URL=postgresql://postgres:69b6315aa6a8e001@172.17.0.1:5432/geminicoder -t programminghero/geminicoder:$(node -p \"require('./package.json').version\") ."
   },
   "dependencies": {
     "@codesandbox/sandpack-react": "^2.18.2",

@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Next.js build output (if rebuilding from scratch)
+.next
+
+# Local environment files
+.env.local
+.env.development
+.env.test
+.env.*
+.env
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Version control files
+.git
+.gitignore
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Docker-related files
+docker-compose.yml
+.dockerignore
+
+# Test-related files
+__tests__
+coverage
+jest.config.js
+*.test.*
+*.spec.*
+
+# Temporary files and caches
+.cache
+.vscode
+.idea
+*.tmp
+*.bak
